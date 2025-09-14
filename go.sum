@@ -1,0 +1,6 @@
+github.com/go-chi/chi v1.5.5 h1:vOB/HbEMt9QqBqErz07QehcOKHaWFtuj87tTDVz2qXE=
+github.com/go-chi/chi v1.5.5/go.mod h1:C9JqLr3tIYjDOZpzn+BCuxY8z8vmca43EeMgyZt7irw=
+golang.org/x/crypto/x509roots/fallback v0.0.0-20250911151450-96dc232fbd79 h1:WZWglxfb13JCTbJyKY1pk0V94spHxJzMAQW29INytRQ=
+golang.org/x/crypto/x509roots/fallback v0.0.0-20250911151450-96dc232fbd79/go.mod h1:MEIPiCnxvQEjA4astfaKItNwEVZA5Ki+3+nyGbJ5N18=
+golang.org/x/text v0.29.0 h1:1neNs90w9YzJ9BocxfsQNHKuAT4pkghyXc4nhZ6sJvk=
+golang.org/x/text v0.29.0/go.mod h1:7MhJOA9CD2qZyOKYazxdYMF85OwPdEr9jTtBpO7ydH4=

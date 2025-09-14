@@ -1,0 +1,33 @@
+# Local Tests
+
+#[200] Non-hyphened CEP
+# http://localhost:8080/cep-temperature/05570990
+
+#[200] Hyphened CEP
+# http://localhost:8080/cep-temperature/05570-990
+
+#[422] Invalid format - 9 digits
+# http://localhost:8080/cep-temperature/011530001
+
+#[422] Invalid format - Letters w/ digits
+# http://localhost:8080/cep-temperature/0115X000
+
+#[404] CEP not found
+# http://localhost:8080/cep-temperature/00000000
+
+# Server Tests
+
+#[200] Non-hyphened CEP
+# https://lab-google-cloud-run-514874811791.us-central1.run.app/cep-temperature/05570990
+
+#[200] Hyphened CEP
+# https://lab-google-cloud-run-514874811791.us-central1.run.app/cep-temperature/05570-990
+
+#[422] Invalid format - 9 digits
+# https://lab-google-cloud-run-514874811791.us-central1.run.app/cep-temperature/011530001
+
+#[422] Invalid format - Letters w/ digits
+# https://lab-google-cloud-run-514874811791.us-central1.run.app/cep-temperature/0115X000
+
+#[404] CEP not found
+# https://lab-google-cloud-run-514874811791.us-central1.run.app/cep-temperature/00000000
